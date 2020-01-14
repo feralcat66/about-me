@@ -1,0 +1,48 @@
+
+
+h3 {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    border: solid 5px white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    font: ;
+}
+h4 {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    border: solid 5px white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+h1 {
+    background-color: lightblue;
+    color: blue;
+    padding: 20px;
+    border: solid 5px white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+h2 {
+    background-color: lightblue;
+    color: blue;
+    padding: 20px;
+    border: solid 5px white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+#quizbutton {
+    background-color: blue;
+    color: white;
+
+
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    background-color: aquamarine;
+}
