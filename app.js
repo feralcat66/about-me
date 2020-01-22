@@ -1,13 +1,20 @@
+//fetching the function defined in is-yes.js
 import isYes from './test/is-yes.js';
 
+//Fetching the element 'your results' from index
 const Results = document.getElementById ('yourResults');
 const button = document.getElementById ('quizbutton');
 
+
+//adding event listener on click to the button
 button.addEventListener('click', () => {
+    //logging 'button works' in the console
     console.log ('button works');
 
-
+//sets constant for name as the input of prompt
 const name = prompt('What is your name?');
+
+//giving an option to hit cancel and not take the quiz
 const confirmation = confirm(`${name}, are you sure you want to take the quiz?`)
 if(confirmation === false) return;
 
