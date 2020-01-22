@@ -1,0 +1,24 @@
+
+
+h1, h2, h3, h4 {
+    background-color: lightblue;
+    color: blue;
+    padding: 20px;
+    border: solid 5px white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+#quizbutton {
+    background-color: blue;
+    color: white;
+
+
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    background-color: aquamarine;
+}
